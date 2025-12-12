@@ -2,8 +2,9 @@
 
 ## Version 1.0
 **Date:** December 12, 2025  
-**Author:** Prithul & Grok 4
-**Purpose:** This datasheet defines a lightweight, packet-based binary protocol for sending fire commands to control the 128 nozzles of a Xaar 128 printhead via an Arduino Nano over UART. The protocol is designed for integration with a Raspberry Pi running Klipper, where the Pi sends nozzle dispensing data to the Arduino. It emphasizes reliability, low overhead, and error detection for real-time 3D printing applications.  
+**Author:** Prithul & Grok 4  
+
+This datasheet defines a lightweight, packet-based binary protocol for sending fire commands to control the 128 nozzles of a Xaar 128 printhead via an Arduino Nano over UART. The protocol is designed for integration with a Raspberry Pi running Klipper, where the Pi sends nozzle dispensing data to the Arduino. It emphasizes reliability, low overhead, and error detection for real-time 3D printing applications.  
 
 Currently, the protocol supports only the "fire nozzles" command, but it is extensible for future commands (e.g., configuration or status queries). UART configuration: 115200 baud, 8 data bits, no parity, 1 stop bit (8N1).  
 
